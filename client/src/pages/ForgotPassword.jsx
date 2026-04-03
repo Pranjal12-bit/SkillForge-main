@@ -15,7 +15,7 @@ const ForgotPassword = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:4000/api/auth/forgot-password",
+        "https://skillforge-main.onrender.com/api/auth/forgot-password",
         { email }
       );
       setMessage(res.data.message);
