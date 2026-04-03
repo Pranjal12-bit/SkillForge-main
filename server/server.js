@@ -13,7 +13,7 @@ const app=express();
 ConnectToDb();
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://skill-forge-lemon.vercel.app" 
+  "https://skillforge-main-1.onrender.com" 
 ];
 
 app.use(
