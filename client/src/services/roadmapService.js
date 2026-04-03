@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:4000/api/roadmap",
+  baseURL: "https://skillforge-main.onrender.com/api/roadmap",
 });
 
 export const generateAiRoadmap = (goal) => {
