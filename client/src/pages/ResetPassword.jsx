@@ -25,7 +25,7 @@ const ResetPassword = () => {
     try {
       setLoading(true);
       const res = await axios.post(
-        `http://localhost:4000/api/auth/reset-password/${token}`,
+        `https://skillforge-main.onrender.com/api/auth/reset-password/${token}`,
         {
           password,
         }
